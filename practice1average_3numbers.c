@@ -8,11 +8,12 @@ int main(){
     scanf("%d",&b);
     printf("Enter value of c\n");
     scanf("%d",&c);
-    average(a, b, c);
+    
+    printf("Average is %f\n", average(a, b, c));
     return 0;
 }
 double average ( int a, int b, int c){
     double result=(float)(a+b+c)/3;
-    printf("Average is %f\n", result);
+    
     return result;
 }
